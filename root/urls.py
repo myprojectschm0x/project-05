@@ -30,6 +30,12 @@ urlpatterns = [
     # Blog Path
     path('blog/', include('blog.urls')),
     
+    # Sample Path
+    path('page/', include('pages.urls')),
+    
+    # View Contact
+    path('contact/', include('contact.urls')),
+    
     # Admin path
     path('admin/', admin.site.urls),
 ]
